@@ -32,7 +32,7 @@
                   </v-list-item-icon>
 
                   <v-list-item-content>
-                    <v-list-item-title>ADDRESS</v-list-item-title>
+                    <v-list-item-title>DIRECCION</v-list-item-title>
                     <v-list-item-subtitle
                       >1400 Main Street, Orlando, FL 79938</v-list-item-subtitle
                     >
@@ -45,7 +45,7 @@
                   </v-list-item-icon>
 
                   <v-list-item-content>
-                    <v-list-item-title>EMAIL</v-list-item-title>
+                    <v-list-item-title>CORREO</v-list-item-title>
                     <v-list-item-subtitle
                       >info@example.com</v-list-item-subtitle
                     >
@@ -63,7 +63,7 @@
                   </v-list-item-icon>
 
                   <v-list-item-content>
-                    <v-list-item-title>PHONE</v-list-item-title>
+                    <v-list-item-title>TELÉFONO</v-list-item-title>
                     <v-list-item-subtitle>(323) 555-6789</v-list-item-subtitle>
                     <v-list-item-subtitle>(650) 555-1234</v-list-item-subtitle>
                   </v-list-item-content>
@@ -91,7 +91,7 @@
           <v-divider vertical></v-divider>
         </v-col>
         <v-col cols="12" md="5" class="py-12">
-          <h3 class="mb-8">SEND YOUR MESSAGE</h3>
+          <h3 class="mb-8">ENVÍA TU MENSAJE</h3>
           <footerContactForm />
         </v-col>
       </v-row>

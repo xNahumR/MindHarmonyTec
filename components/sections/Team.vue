@@ -7,7 +7,7 @@
       <v-row>
         <v-col>
           <h2 class="text-h4 text-sm-h3 text-capitalize font-weight-black mb-4">
-            Nuestro Equipo Especialista
+            ESPECIALISTAS DE LA SALUD
           </h2>
           <p>
             Cada miembro de nuestro equipo aporta una amplia experiencia y

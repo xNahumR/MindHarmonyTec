@@ -5,12 +5,12 @@
     <v-text-field label="Subject" dense outlined></v-text-field>
     <v-textarea
       dense
-      label="Your Message"
+      label="Tu Mensaje"
       auto-grow
       outlined
       rows="8"
       row-height="20"
     ></v-textarea>
-    <v-btn outlined block color="primary">SEND MESSAGE</v-btn>
+    <v-btn outlined block color="primary">ENVIAR</v-btn>
   </v-form>
 </template>
