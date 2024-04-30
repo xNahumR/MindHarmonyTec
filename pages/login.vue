@@ -61,6 +61,19 @@ export default {
           heading: ' Iniciar Sesión ',
         },
       ],
+      head() {
+        return {
+          title: 'Login',
+          meta: [
+            {
+              hid: 'description',
+              name: 'description',
+              content:
+                'Infographic hypotheses influencer user experience Long madel ture gen-z paradigm shift client partner network product seilans solve management influencer analytics leverage virality. incubator seed round massmarket. buyer agile development growth hacking business-to-consumer ecosystem',
+            },
+          ],
+        }
+      },
       loginForm: {
         email: '',
         password: '',
@@ -70,7 +83,6 @@ export default {
   methods: {
     submitLogin() {
       // Aquí puedes implementar la lógica para enviar los datos del formulario de inicio de sesión al servidor
-      console.log('Datos del formulario de inicio de sesión:', this.loginForm)
     },
   },
 }
