@@ -3,37 +3,32 @@
     <v-row no-gutters>
       <v-col cols="12">
         <SectionsHeroAlt :hero-alt="heroAlt" />
-        <v-container class="py-16">
-          <v-row>
-            <v-col
-              v-for="n in 9"
-              :key="n"
-              class="d-flex child-flex"
-              cols="4"
-              xl="3"
-            >
-              <v-img
-                :src="`https://picsum.photos/700?image=${n * 5 + 10}`"
-                :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
-                aspect-ratio="1"
-                class="grey lighten-2 rounded-lg"
-              >
-                <template v-slot:placeholder>
-                  <v-row
-                    class="fill-height ma-0"
-                    align="center"
-                    justify="center"
-                  >
-                    <v-progress-circular
-                      indeterminate
-                      color="grey lighten-5"
-                    ></v-progress-circular>
-                  </v-row>
-                </template>
-              </v-img>
-            </v-col>
-          </v-row>
-        </v-container>
+        <br />
+        <v-card class="mx-auto" max-width="500">
+          <v-img class="grey lighten-2 rounded-lg" aspect-ratio="1">
+            <video controls width="100%" height="100%" preload="metadata">
+              <source
+                src="https://www.youtube.com/watch?v=nrpLlOfVY0s"
+                type="video/mp4"
+              />
+              Tu navegador no admite el elemento de video.
+            </video>
+            <template v-slot:placeholder>
+              <v-row class="fill-height ma-0" align="center" justify="center">
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                ></v-progress-circular>
+              </v-row>
+            </template>
+          </v-img>
+          <v-card-title class="headline"
+            >Autocuidado y Salud Mental</v-card-title
+          >
+          <v-card-text>
+            <p>Atención Personal</p>
+          </v-card-text>
+        </v-card>
       </v-col>
     </v-row>
   </section>
@@ -46,7 +41,7 @@ export default {
       heroAlt: [
         {
           src: 'pexels-andrea-piacquadio-3830745.jpg',
-          heading: ' Gallery ',
+          heading: ' Videos ',
         },
       ],
     }

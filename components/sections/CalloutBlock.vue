@@ -27,6 +27,7 @@
             </v-col>
             <v-col align-self="center" cols="12" sm="5" class="text-center">
               <v-btn
+                to="/register"
                 x-large
                 rounded
                 color="white primary--text mx-auto mt-10 px-16"

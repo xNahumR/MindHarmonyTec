@@ -23,7 +23,7 @@
             </div>
             <p class="mb-5 white--text">{{ carousel.subHeading }}</p>
             <v-btn :x-large="$vuetify.breakpoint.smAndUp" class="my-3 primary"
-              >Get Started</v-btn
+              >EMPIEZA EL CAMBIO</v-btn
             >
             <span class="mx-2 my-4"></span>
             <v-btn
@@ -32,8 +32,8 @@
               class="my-3"
               outlined
               dark
-              ><v-icon left large color="primary">mdi-play</v-icon>Learn
-              More</v-btn
+              ><v-icon left large color="primary">mdi-play</v-icon>DESCUBRE
+              MÁS</v-btn
             >
           </div>
         </v-container>
@@ -49,21 +49,21 @@ export default {
       carouselsData: [
         {
           src: 'pexels-andrea-piacquadio-3884440.jpg',
-          heading: ' IMPROVE YOUR HEALTH WITH US ',
+          heading: ' MEJORA TU SALUD ',
           subHeading:
-            ' Unleash the power of your mind by prioritizing your mental health. In a fast-paced world filled with constant change and evolving norms, safeguarding your mental well-being is of utmost importance. Dive into our comprehensive array of mental health resources designed to nurture your cognitive wellness journey. ',
+            ' Desata el poder de tu mente priorizando tu salud mental. En un mundo acelerado lleno de cambios constantes y normas en evolución, proteger tu bienestar mental es de suma importancia. Sumérgete en nuestra amplia gama de recursos de salud mental diseñados para nutrir tu viaje hacia el bienestar cognitivo.',
         },
         {
           src: 'pexels-peter-olexa-4012966.jpg',
-          heading: ' NUTRITION IS KEY ',
+          heading: ' LA NUTRICIÓN ES LA CLAVE ',
           subHeading:
-            ' Eating well is fundamental to our overall health and well-being. It provides our bodies with the necessary nutrients to function optimally and supports various bodily processes. A balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats not only fuels our physical activities but also nourishes our minds. ',
+            ' Comer bien es fundamental para nuestra salud y bienestar general. Proporciona a nuestros cuerpos los nutrientes necesarios para funcionar de manera óptima y apoya diversos procesos corporales. Una dieta equilibrada, rica en frutas, verduras, granos integrales, proteínas magras y grasas saludables, no solo alimenta nuestras actividades físicas, sino que también nutre nuestras mentes. ',
         },
         {
           src: 'pexels-thirdman-5961072.jpg',
-          heading: ' SPECIALISTS ',
+          heading: ' ESCPECIALISTAS ',
           subHeading:
-            ' Just as you would consult a doctor for physical ailments, its equally important to seek professional help when facing emotional or psychological difficulties. Mental health professionals, such as therapists, counselors, and psychologists, are equipped with the knowledge and skills to provide tailored support and interventions to address a wide range of mental health concerns ',
+            ' Así como consultarías a un médico para dolencias físicas, es igualmente importante buscar ayuda profesional cuando enfrentas dificultades emocionales o psicológicas. Los profesionales de la salud mental, como terapeutas, consejeros y psicólogos, están equipados con el conocimiento y las habilidades para brindar apoyo y tratamientos personalizados para abordar una amplia gama de preocupaciones de salud mental. ',
         },
         {
           src: 'pexels-andrea-piacquadio-3830745.jpg',

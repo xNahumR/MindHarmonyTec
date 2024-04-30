@@ -150,6 +150,11 @@ export default {
           title: 'Acerca de',
           to: '/about',
         },
+        {
+          icon: 'mdi-account',
+          title: 'Usuario',
+          to: '/register',
+        },
       ],
     }
   },

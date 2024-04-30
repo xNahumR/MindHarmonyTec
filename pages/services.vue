@@ -52,7 +52,7 @@ export default {
       heroAlt: [
         {
           src: 'pexels-ekaterina-bolovtsova-4048767.jpg',
-          heading: ' Services ',
+          heading: ' Servicios ',
         },
       ],
       cards: [

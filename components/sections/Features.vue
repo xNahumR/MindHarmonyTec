@@ -34,11 +34,28 @@
         </v-col>
       </v-row>
       <v-row no-gutters>
-        <v-btn x-large rounded color="white primary--text mx-auto mt-10 px-16">
-          <v-icon dark left> mdi-check-bold </v-icon>Registrate
+        <!-- Botón para redirigir a la página de registro -->
+        <v-btn
+          x-large
+          rounded
+          color="white"
+          class="primary--text mx-auto mt-10 px-16"
+        >
+          <router-link to="/register">
+            <v-icon dark left>mdi-check-bold</v-icon>Registrate
+          </router-link>
         </v-btn>
-        <v-btn x-large rounded color="white primary--text mx-auto mt-10 px-16">
-          <v-icon dark left> mdi-check-bold </v-icon>Iniciar Sesión
+
+        <!-- Botón para redirigir a la página de inicio de sesión -->
+        <v-btn
+          x-large
+          rounded
+          color="white"
+          class="primary--text mx-auto mt-10 px-16"
+        >
+          <router-link to="/login">
+            <v-icon dark left>mdi-check-bold</v-icon>Iniciar Sesión
+          </router-link>
         </v-btn>
       </v-row>
     </v-container>
