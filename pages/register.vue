@@ -88,8 +88,6 @@ export default {
   methods: {
     submitRegister() {
       // Aquí puedes implementar la lógica para enviar los datos del formulario de registro al servidor
-      console.log('Datos del formulario de registro:', this.registerForm)
-      console.log('¿Términos y condiciones aceptados?', this.termsAccepted)
     },
   },
 }
