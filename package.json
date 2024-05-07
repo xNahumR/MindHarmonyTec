@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "core-js": "^3.20.2",
+    "firebase": "^10.11.1",
     "flowbite": "^2.3.0",
     "nuxt": "^2.15.8",
     "vue-youtube-embed": "^2.2.2"

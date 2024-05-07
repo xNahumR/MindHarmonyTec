@@ -109,8 +109,8 @@ export default {
           elevation: 0,
           color: 'primary darken-1',
           description: 'Plan Óptimo de Bienestar para el Crecimiento Personal',
-          monthly: '$10',
-          yearly: '$100',
+          monthly: '$400',
+          yearly: '$4000',
           features: [
             {
               icon: 'mdi-account-heart',
@@ -135,8 +135,8 @@ export default {
           elevation: 16,
           color: 'green darken-2',
           description: 'Paquete Integral de Salud Mental para Individuos',
-          monthly: '$40',
-          yearly: '$400',
+          monthly: '$600',
+          yearly: '$6000',
           features: [
             {
               icon: 'mdi-account-heart',
@@ -162,8 +162,8 @@ export default {
           color: 'orange darken-3',
           description:
             'Programa de Fortalecimiento Mental para el Bienestar Integral',
-          monthly: '$100',
-          yearly: '$1000',
+          monthly: '$1000',
+          yearly: '$10000',
           features: [
             {
               icon: 'mdi-account-heart',
